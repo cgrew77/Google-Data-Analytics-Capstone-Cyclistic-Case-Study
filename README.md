@@ -102,7 +102,7 @@ First of all, member and casual riders are compared by the type of bikes they ar
 
 ![tab1](https://github.com/user-attachments/assets/2112c036-8021-479d-9cfb-3bcc96ed4f6b)
   
-The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders. 
+The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. The most used bike is the classic bike followed by the electric bike. Electric scooters are used the least, only by casual riders. 
   
 Next the number of trips distributed by the months, days of the week and hours of the day are examined.  
   
