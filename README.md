@@ -75,13 +75,19 @@ Observations:
 
    ![image](https://github.com/user-attachments/assets/225a3d5e-2a10-40b3-86b7-d68fce9cf7c9)
 
-6. The __started_at__ and __ended_at__ shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
-7. Total of 833064 rows have both __start_station_name__ and __start_station_id__ missing which needs to be removed.  
-8. Total of 892742 rows have both __end_station_name__ and __end_station_id__ missing which needs to be removed.
-9. Total of 5858 rows have both __end_lat__ and __end_lng__ missing which needs to be removed.
+6. The __started_at__ and __ended_at__ shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 7596 trips which has duration longer than a day and 132644 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
+7. Total of 1073951 rows have both __start_station_name__ and __start_station_id__ missing which needs to be removed.  
+8. Total of 1104653 rows have both __end_station_name__ and __end_station_id__ missing which needs to be removed.
+9. Total of 7232 rows have both __end_lat__ and __end_lng__ missing which needs to be removed.
 10. __member_casual__ column has 2 uniqued values as member or casual rider.
 
     ![image](https://github.com/user-attachments/assets/29922b98-54ff-498d-b4ad-2584194d26e9)
 
 11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 
+### Data Cleaning
+SQL Query: [Data Cleaning]()  
+1. All the rows having missing values are deleted.  
+2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.  
+3. Trips with duration less than a minute and longer than a day are excluded.
+4. Total INSERT rows are removed in this step.
