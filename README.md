@@ -51,7 +51,37 @@ A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inabi
 SQL Query: [Data Combining](https://github.com/cgrew77/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Combining%20Data.sql)
 12 csv files are uploaded as tables in the dataset '2024_tripdata'. Another table named "combined_data" is created, containing 5,680,568 rows of data for the entire year.
 ### Data Exploration
-SQL Query: [Data Exploration]()  
+SQL Query: [Data Exploration](https://github.com/cgrew77/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Exploration%20of%20Data.sql)  
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies.  
 
 Observations:
+1. The table below shows the all column names and their data types. The __ride_id__ column is our primary key.  
+
+   ![image](![obs1](https://github.com/user-attachments/assets/0946becc-5e58-4fb4-8675-a0c320f18d91))  
+
+2. The following table shows number of __null values__ in each column.  
+   
+   ![image](![obs2](https://github.com/user-attachments/assets/92068a0e-2841-4d10-9760-9024e27b3ba8))
+
+   Note that some columns have same number of missing values. This may be due to missing information in the same row i.e. station's name and id for the same station and latitude and longitude for the same ending station.  
+3. As ride_id has no null values, let's use it to check for duplicates.  
+
+   ![image](![obs3](https://github.com/user-attachments/assets/cbc1e013-76ea-4cb3-a3e8-c312ac8be56d))
+
+   There are 211 __duplicate__ rows in the data.  
+   
+4. All __ride_id__ values have length of 16 so no need to clean it.
+5. There are 3 unique types of bikes(__rideable_type__) in our data.
+
+   ![image](![obs4](https://github.com/user-attachments/assets/225a3d5e-2a10-40b3-86b7-d68fce9cf7c9))
+
+6. The __started_at__ and __ended_at__ shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
+7. Total of 833064 rows have both __start_station_name__ and __start_station_id__ missing which needs to be removed.  
+8. Total of 892742 rows have both __end_station_name__ and __end_station_id__ missing which needs to be removed.
+9. Total of 5858 rows have both __end_lat__ and __end_lng__ missing which needs to be removed.
+10. __member_casual__ column has 2 uniqued values as member or casual rider.
+
+    ![image](![obs5](https://github.com/user-attachments/assets/29922b98-54ff-498d-b4ad-2584194d26e9))
+
+11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
+
