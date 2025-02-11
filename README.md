@@ -86,8 +86,12 @@ Observations:
 11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 
 ### Data Cleaning
-SQL Query: [Data Cleaning]()  
+SQL Query: [Data Cleaning](https://github.com/cgrew77/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Cleaning%20Data.sql)  
 1. All the rows having missing values are deleted.  
 2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.  
 3. Trips with duration less than a minute and longer than a day are excluded.
-4. Total INSERT rows are removed in this step.
+4. Total 1,512,411 rows are removed in this step.
+
+## Analyze and Share
+SQL Query: [Data Analysis](https://github.com/cgrew77/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Analysis%20of%20Data.sql)  
+Data Visualization: [Tableau]()
