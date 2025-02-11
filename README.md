@@ -100,13 +100,13 @@ The analysis question is: How do annual members and casual riders use Cyclistic 
 
 First of all, member and casual riders are compared by the type of bikes they are using.  
 
-![image](![tab1](https://github.com/user-attachments/assets/2112c036-8021-479d-9cfb-3bcc96ed4f6b))
+![tab1](https://github.com/user-attachments/assets/2112c036-8021-479d-9cfb-3bcc96ed4f6b)
   
 The members make 59.7% of the total while remaining 40.3% constitutes casual riders. Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders. 
   
 Next the number of trips distributed by the months, days of the week and hours of the day are examined.  
   
-![image](![tab2](https://github.com/user-attachments/assets/2e25d672-7baf-490e-be7d-51bd128b075e))
+![tab2](https://github.com/user-attachments/assets/2e25d672-7baf-490e-be7d-51bd128b075e)
   
 __Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.   
 __Days of Week:__ When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week.  
@@ -116,7 +116,7 @@ We can infer from the previous observations that member may be using bikes for c
   
 Ride duration of the trips are compared to find the differences in the behavior of casual and member riders.  
   
-![image](![tab3](https://github.com/user-attachments/assets/4a4a810c-7264-4eb5-93c0-fe76d7f861d4))
+![tab3](https://github.com/user-attachments/assets/4a4a810c-7264-4eb5-93c0-fe76d7f861d4)
   
 Take note that casual riders tend to cycle longer than members do on average. The length of the average journey for members doesn't change throughout the year, week, or day. However, there are variations in how long casual riders cycle. In the spring and summer, on weekends, and from 10 am to 2 pm during the day, they travel greater distances. Between five and eight in the morning, they have brief trips.
   
@@ -124,11 +124,11 @@ These findings lead to the conclusion that casual commuters travel longer (appro
   
 To further understand the differences in casual and member riders, locations of starting and ending stations can be analysed. Stations with the most trips are considered using filters to draw out the following conclusions.  
   
-![image](![tab4](https://github.com/user-attachments/assets/63137224-0838-4f9b-b627-0816e44eb6ce))  
+![tab4](https://github.com/user-attachments/assets/63137224-0838-4f9b-b627-0816e44eb6ce)
   
 Casual riders have frequently started their trips from the stations in vicinity of museums, parks, beach, harbor points and aquarium while members have begun their journeys from stations close to universities, residential areas, restaurants, hospitals, grocery stores, theatre, schools, banks, factories, train stations, parks and plazas.  
   
-![image](![tab5](https://github.com/user-attachments/assets/07dac130-f985-4c90-bf35-a9894d365283))
+![tab5](https://github.com/user-attachments/assets/07dac130-f985-4c90-bf35-a9894d365283)
   
 Similar trend can be observed in ending station locations. Casual riders end their journay near parks, museums and other recreational sites whereas members end their trips close to universities, residential and commmercial areas. So this proves that casual riders use bikes for leisure activities while members extensively rely on them for daily commute.  
   
