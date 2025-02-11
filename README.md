@@ -108,7 +108,7 @@ Next the number of trips distributed by the months, days of the week and hours o
   
 ![tab2](https://github.com/user-attachments/assets/2e25d672-7baf-490e-be7d-51bd128b075e)
   
-__Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.   
+__Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in summer, during the month of July.   
 __Days of Week:__ When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week.  
 __Hours of the Day:__ The members shows 2 peaks throughout the day in terms of number of trips. One is early in the morning at around 6 am to 8 am and other is in the evening at around 4 pm to 8 pm while number of trips for casual riders increase consistently over the day till evening and then decrease afterwards.  
   
@@ -130,7 +130,7 @@ Casual riders have frequently started their trips from the stations in vicinity 
   
 ![tab5](https://github.com/user-attachments/assets/07dac130-f985-4c90-bf35-a9894d365283)
   
-Similar trend can be observed in ending station locations. Casual riders end their journay near parks, museums and other recreational sites whereas members end their trips close to universities, residential and commmercial areas. So this proves that casual riders use bikes for leisure activities while members extensively rely on them for daily commute.  
+Similar trends can be observed in ending station locations. Casual riders end their journay near parks, museums and other recreational sites whereas members end their trips close to universities, residential and commmercial areas. So this proves that casual riders use bikes for leisure activities while members extensively rely on them for daily commute.  
   
 Summary:
   
