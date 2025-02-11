@@ -61,7 +61,7 @@ Observations:
 
 2. The following table shows number of __null values__ in each column.  
    
-   ![image](![obs2](https://github.com/user-attachments/assets/92068a0e-2841-4d10-9760-9024e27b3ba8))
+   ![image](https://github.com/user-attachments/assets/92068a0e-2841-4d10-9760-9024e27b3ba8)
 
    Note that some columns have same number of missing values. This may be due to missing information in the same row i.e. station's name and id for the same station and latitude and longitude for the same ending station.  
 3. As ride_id has no null values, let's use it to check for duplicates.  
