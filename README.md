@@ -6,10 +6,10 @@ In this case study, I will perform many required tasks of a real-world junior da
 Data Source: [divvy_tripdata]() [accessed on 02/10/25]  
   
 SQL Queries:  
-[01. Data Combining]()  
-[02. Data Exploration]()  
-[03. Data Cleaning]()  
-[04. Data Analysis]()  
+[01. Data Combining](https://github.com/cgrew77/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Combining%20Data.sql)  
+[02. Data Exploration](https://github.com/cgrew77/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Exploration%20of%20Data.sql)  
+[03. Data Cleaning](https://github.com/cgrew77/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Cleaning%20Data.sql)  
+[04. Data Analysis](https://github.com/cgrew77/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Analysis%20of%20Data.sql)  
   
 Data Visualizations: [Tableau]()
 ## Background
